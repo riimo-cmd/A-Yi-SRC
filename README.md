@@ -2,6 +2,7 @@
 A-Yi bot source ^^
 
 This is the code for the A-Yi discord bot
+
 She does trivia for Vocaloid, Utau, CVio, Synth-V, and other virtual idols and singers
 
 I'm open to requests, but please don't try and commit to master - your commit will be ignored
