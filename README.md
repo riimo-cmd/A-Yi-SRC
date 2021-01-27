@@ -7,6 +7,6 @@ She does trivia for Vocaloid, Utau, CVio, Synth-V, and other virtual idols and s
 
 Got any trivia for me to add? Message me!
 
-Current Version - 0.0.1 (pre-alpha)
+Current Version - 0.0.5 (pre-alpha)
 
 Have fun!
