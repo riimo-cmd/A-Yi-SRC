@@ -1,0 +1,18 @@
+@bot.command()
+async def vocaloid(ctx):
+    '''Time for vocaloid trivia :D'''
+    question = random.randint(1,2)
+    if question == 1:
+      await ctx.send('Who is Aoki Lapis\'s sister - Merlin, Miku, Kaito, or Kanon?')
+    
+    if question == 2:
+      await ctx.send('Who had the first multi-lingual voicebank - Luka, Lola, Leon, or VY1? ')
+
+
+intents = discord.Intents.default()
+description = '''A triva bot for vocal-synths and virtual idols* \n *virtual idol, anime idol, utau, synth-v and cvio trivia comming soon! '''
+
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
+print(TOKEN)
+bot = commands.Bot(command_prefix='yi', description=description, intents=intents)
